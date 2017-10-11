@@ -1,0 +1,47 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 3em;
+  position: relative;
+}
+h1 {
+  width: 1000px;
+  margin: 40px auto;
+}
+.heading img {
+  transform: rotate(330deg);
+  width: 100px;
+  position: absolute;
+  top: -15px;
+  left: 55px;
+}
+.float-left {
+  width: 40%;
+  float: left;
+  clear: both;
+  margin: 20px 0 10px 60px;
+}
+.float-right {
+  width: 40%;
+  float: right;
+  margin: 20px 60px 10px 0;
+}
+.float-right img, .float-left img {
+  width: 450px;
+  height: 320px;
+  object-fit: cover;
+}
+.float-left p, .float-right p {
+  width: 450px;
+  text-align: justify;
+}
